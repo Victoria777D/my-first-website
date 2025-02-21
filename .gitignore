@@ -1,0 +1,6 @@
+.pytest_cache/
+venv/
+.env/
+.venv/
+.vscode/
+Thumbs.db
