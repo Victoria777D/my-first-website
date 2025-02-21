@@ -13,7 +13,8 @@ ul, ol {
     background: #ffffff;
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -36,6 +37,9 @@ ul, ol {
     width: 370px;
 }
 
+.img-style {
+    object-fit: cover;
+}
 
 .sidebar-content {
     padding-left: 40px;
@@ -301,4 +305,55 @@ ul, ol {
 
 .education-period-separator {
     color: #000;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 20px 20px 20px 20px;    
+    }
+
+    .main-content {
+        padding: 40px 40px 40px 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .sidebar {
+        width: 250px;
+    }
+    .my-photo {
+        width: 250px;
+    }
+    .sidebar-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+    .sidebar {
+        width: 200px;
+    }
+    .my-photo {
+        width: 200px;
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .my-name {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .my-photo {
+        width: 100%;
+    }
 }
