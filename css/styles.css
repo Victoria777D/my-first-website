@@ -30,6 +30,7 @@ ul, ol {
     padding-right: 40px;
     padding-bottom: 80px;
     box-sizing: border-box;
+    order: 2;
 }
 
 /* Sidebar */
@@ -40,6 +41,7 @@ ul, ol {
     padding-bottom: 40px;
     box-sizing: border-box;
     width: 370px;
+    order: 1;
 }
 
 .img-style {
